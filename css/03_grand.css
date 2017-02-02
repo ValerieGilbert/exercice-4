@@ -1,7 +1,9 @@
-header,
-main section,
-footer {
+main section {
   width: 960px;
+}
+.global {
+  content: center;
+  width: 100%;
 }
 header {
   flex-direction: row;
