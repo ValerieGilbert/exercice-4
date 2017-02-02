@@ -72,20 +72,6 @@
     height: 250px;
     font-size: 250px;
   }
-  main section.nth-child(even) {
-    /*article:nth-child(1) {background-color: @couleur-base;}
-          article:nth-child(2) {background-color: @triadic-1;}
-          article:nth-child(3) {background-color: @triadic-2;}
-          article:nth-child(4) {background-color: @triadic-2;}
-          article:nth-child(5) {background-color: @triadic-2;}*/
-  }
-  main section.nth-child(odd) {
-    /*article:nth-child(1) {background-color: @couleur-8;}
-          article:nth-child(2) {background-color: @couleur-9;}
-          article:nth-child(3) {background-color: @couleur-10;}
-          article:nth-child(4) {background-color: @couleur-9;}
-          article:nth-child(5) {background-color: @couleur-10;}*/
-  }
   footer {
     height: 70px;
     display: flex;
