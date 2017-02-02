@@ -76,8 +76,9 @@ main section article {
   align-items: center;
   height: 250px;
   font-size: 250px;
+  /*JE NE COMPREND RIEN =(*/
 }
-main section article global:nth-child(even) {
+.global section article .global:nth-child(even) {
   background-color: #e3d47f;
   /* article:nth-child(1) {background-color: @couleur-base;}
             article:nth-child(2) {background-color: @triadic-1;}
@@ -85,7 +86,7 @@ main section article global:nth-child(even) {
             article:nth-child(4) {background-color: @triadic-2;}
             article:nth-child(5) {background-color: @triadic-2;}*/
 }
-main section article global:nth-child(odd) {
+.global section article .global:nth-child(odd) {
   background-color: #dbaab1;
   /*article:nth-child(1) {background-color: @couleur-8;}
             article:nth-child(2) {background-color: @couleur-9;}
