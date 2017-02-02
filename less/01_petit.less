@@ -34,11 +34,13 @@
 * {border: 1px solid #aaa;}
 */
 
-
-
-
-
-
+html {
+  background-image: url("../images/parcautomne.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-origin: 50% 50%;
+  background-size: cover;
+}
 
 body{
   display : flex;
@@ -119,19 +121,20 @@ main{
   section {
     article {
       .nth-child(even) {
-          
-            article:nth-child(1) {background-color: @couleur-base;}
+          background-color: @couleur-base;
+            /*article:nth-child(1) {background-color: @couleur-base;}
             article:nth-child(2) {background-color: @triadic-1;}
             article:nth-child(3) {background-color: @triadic-2;}
             article:nth-child(4) {background-color: @triadic-2;}
-            article:nth-child(5) {background-color: @triadic-2;}
+            article:nth-child(5) {background-color: @triadic-2;}*/
         }
         .nth-child(odd) {
-            article:nth-child(1) {background-color: @couleur-8;}
+          background-color: @couleur-8;
+            /*article:nth-child(1) {background-color: @couleur-8;}
             article:nth-child(2) {background-color: @couleur-9;}
             article:nth-child(3) {background-color: @couleur-10;}
             article:nth-child(4) {background-color: @couleur-9;}
-            article:nth-child(5) {background-color: @couleur-10;}
+            article:nth-child(5) {background-color: @couleur-10;}*/
         }
       }
   }
