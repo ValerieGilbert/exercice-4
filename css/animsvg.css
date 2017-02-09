@@ -4,20 +4,78 @@
 	animation: animun 5s infinite;
 	}
 
-@keyframes animun {
-  	to {
-    	stroke-dashoffset: 0;
- 	}
-}
-
 .ligne2 {
 	stroke-dasharray: 10;
 	stroke-dashoffset: -1000;
 	animation: woosh 5s infinite;
 	}
 
+.ligne3 {
+	stroke-dasharray: 100;
+	stroke-dashoffset: 1000;
+	animation: yoooo 5s infinite;
+	}
+
+.ligne4 {
+	stroke-dasharray: 10;
+	stroke-dashoffset: 0;
+	animation: yoooo 5s infinite;
+	}
+
+.ligne5 {
+	stroke-dasharray: 1000;
+	stroke-dashoffset: 1000;
+	animation: animun 5s infinite;
+	}
+
+@keyframes yoooo {
+  	to {
+    	stroke-dashoffset: 60;
+ 	}
+}
+
 @keyframes woosh {
   	to {
     	stroke-dashoffset: 0;
  	}
+}
+
+@keyframes animun {
+  	to {
+    	stroke-dashoffset: 0;
+ 	}
+}
+
+.ligne6 path { 
+	fill: red; 
+	transition: fill .4s ease; 
+}
+
+.ligne6:hover path { 
+	fill: white; 
+}
+
+.ligne7 path {
+	transition: .4s ease; 
+}
+
+.ligne7:hover path { 
+	stroke-width: 17; 
+}
+
+.ligne8:hover path {
+	transition: 1s;
+	d: path("M150,105 v-100 a100,150 0 0,0 -100,100 z");
+}
+
+.ligne9:hover path {
+	transition: 2s;
+	stroke:blue;
+}
+
+.ligne10:hover path {
+	transition: 5s;
+	stroke-width: 25; 
+	stroke:white;
+	d: path("M 30 160 q 160 -50 0 50");
 }
